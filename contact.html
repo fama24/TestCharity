@@ -96,9 +96,8 @@
 							<li>
 								<a href="#" class="fh5co-sub-ddown">Get Involved</a>
 								<ul class="fh5co-sub-menu">
-									<li><a href="#">Donate</a></li>
-									<li><a href="#">Fundraise</a></li>
-									<li><a href="#">Campaign</a></li>
+									<li><a href="#myModal" type="button" class="btn btn-settings" data-backdrop="false" data-toggle="modal">Donate</a></li>
+									<li><a href="#myModal" type="button" class="btn btn-settings" data-backdrop="false" data-toggle="modal">Fundraise</a></li>
 								</ul>
 							</li>
 							<!--<li>
@@ -118,7 +117,60 @@
 			</div>
 		</header>
 		
-		
+		<!-- Modal -->
+		<div id="myModal" class="modal fade">
+    			<div class="modal-dialog">
+        			<div class="modal-content">
+            				<div class="modal-header">
+                				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                 				<h4 class="modal-title">Donate</h4>  
+
+            				</div>
+            				<div class="modal-body">
+						<div class="body-message">
+          						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    								<div class="panel panel-default">
+      									<div class="panel-heading" role="tab" id="headingOne">
+        									<h4 class="panel-title">
+        									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          									Binance Address
+        									</a>
+      										</h4>
+      									</div>
+      									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        									<div class="panel-body">
+											<img src="images/wallet_1.jpg" alt="" class="img-responsive">
+											<b>TP58CitA7Jwu5yGycdb9JwtzCvsrVvQByL</b>
+        									</div>
+      									</div>
+    								</div>
+    								<div class="panel panel-default">
+      									<div class="panel-heading" role="tab" id="headingTwo">
+        									<h4 class="panel-title">
+        									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          									Wallet Address
+        									</a>
+      										</h4>
+      									</div>
+      									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        									<div class="panel-body">
+											<img src="images/wallet_2.jpg" alt="" class="img-responsive">
+											<b>0x144094af4C1aFbbB19aBbBfE5D0F752204df7646</b>
+										</div>
+        								</div>
+      								</div>
+    							</div>
+						</div>
+            				</div>
+				        <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				        </div>
+			        </div>
+			        <!-- /.modal-content -->
+		        </div>
+		        <!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
 
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
