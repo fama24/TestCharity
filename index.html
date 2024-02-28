@@ -96,7 +96,7 @@
 							<li>
 								<a href="#" class="fh5co-sub-ddown">Get Involved</a>
 								<ul class="fh5co-sub-menu">
-									<li><a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Donate</a></li>
+									<li><a href="#myModal" type="button" class="btn btn-settings" data-backdrop="false" data-toggle="modal">Donate</a></li>
 									<li><a href="#">Fundraise</a></li>
 									<li><a href="#">Campaign</a></li>
 								</ul>
@@ -119,26 +119,29 @@
 		</header>
 		
 		<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="myModalTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+		<div id="myModal" class="modal fade">
+    			<div class="modal-dialog">
+        			<div class="modal-content">
+            				<div class="modal-header">
+                				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                 				<h4 class="modal-title">Settings</h4>  
 
+            				</div>
+            				<div class="modal-body">
+                				<h3>Lorem Ipsum</h3>
+                				<p>Praesent non dictum dolor, vitae interdum erat. Nam quis consectetur mi. In consequat condimentum tortor, et lobortis est convallis ac. Quisque volutpat posuere dui, pellentesque vulputate dolor. Morbi dapibus orci eu est consectetur, sed pretium mauris laoreet. Pellentesque sodales ante non justo viverra, sit amet consectetur nisl vulputate.</p>
+            				</div>
+				        <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+						<button id="loadpage" type="button" class="btn btn-primary">Save</button>
+				        </div>
+			        </div>
+			        <!-- /.modal-content -->
+		        </div>
+		        <!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+			
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpeg);">
